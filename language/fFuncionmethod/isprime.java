@@ -1,0 +1,25 @@
+package fFuncionmethod;
+import java.util.Scanner;
+
+public class isprime {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int n = s.nextInt();
+        boolean a = prime(n);
+        System.out.println(a);
+    }
+    static boolean prime(int n){
+        if(n<=1){
+            return false;
+        }
+        int c = 2;
+        while(c*c<=n){
+            if(n%c==0){
+                return false;
+            }
+            c++;
+        }
+        return c*c >n;
+    }
+}
