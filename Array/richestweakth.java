@@ -1,4 +1,4 @@
-package DSA;
+package Array;
 
 public class richestweakth {
 
@@ -10,7 +10,7 @@ public class richestweakth {
     public static void main(String[] args) {
         int[][] accounts={
             {1,2,3},
-            {1,2,3}
+            {1,5,3}
         };
         int ans = maxwealth(accounts);
         System.out.println("The reachest wealthy man has the wealth: " +ans);

@@ -8,7 +8,7 @@ public class performance {
         String s ="";
         for(int i = 0; i< 26;i++){
             char ch = (char)('A' + i);
-            // System.out.print(ch);
+            
             s += ch;
         }
         System.out.println(s);

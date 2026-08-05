@@ -8,8 +8,8 @@ public class fibo {
         int b = 1;
         int count = 1;
 
-        while(count < n){
-            
+        while(count <= n){
+             System.out.println(a +" ");
 
             int temp = a+b;
             a = b;
@@ -17,6 +17,6 @@ public class fibo {
 
             count++;
         }
-        System.out.println(a +" ");
+       
     }
 }

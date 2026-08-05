@@ -5,6 +5,7 @@ import java.util.Collections;
 public class arraylistex {
     public static void main(String[] args) {
         ArrayList<Integer> l = new ArrayList<>(5);
+        // <Integer> is called as wrapper class
         l.add(99);
         l.add(94);
         l.add(95);

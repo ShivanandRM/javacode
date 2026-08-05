@@ -6,6 +6,6 @@ public class prettyprinting {
         // System.out.printf("foramtted float is : %.3f", a);
 
         // System.out.printf("the pi values is %.3f",Math.PI);
-        System.out.printf("I am %s and I completed my pre-university %s college", "shivanand", "Majalatti");
+        System.out.printf("I am %s and I completed my pre-university in %s college", "shivanand", "Majalatti");
     }
 }
