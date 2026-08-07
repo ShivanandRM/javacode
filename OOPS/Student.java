@@ -42,7 +42,7 @@
         public static void main(String[] args) {
            Stu s1 = new Stu();
            Stu random = new Stu(s1);
-                      System.out.println("The random name is: "+random.name);
+           System.out.println("The random name is: "+random.name);
 
 
            Stu random2  = new Stu();

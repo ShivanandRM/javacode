@@ -9,6 +9,9 @@ public class Innerclasses {
     }
     public static void main(String[] args) {
         Test t1 = new Test("Hello");
+        Test t2 = new Test("Good Morning");
         System.out.println(t1.name);
+        System.out.println(t2.name);
+        
     }
 }
